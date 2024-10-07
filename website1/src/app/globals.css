@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.homeContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.childContainer{
+  width: fit-content;
+  height: 250px;
+  margin: 40px;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.blueColor{
+  color: #1b3f87;
+}
